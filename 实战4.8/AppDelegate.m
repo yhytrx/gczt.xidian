@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ListOfCourseTableViewController.h"
+#import "VideoTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -24,7 +25,11 @@
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:listOfCourseTVC];
     
     self.window.rootViewController = nav;
-    return YES;
+     
+    /*VideoTableViewController *videoTVC = [[VideoTableViewController alloc]init];
+    self.window.rootViewController = videoTVC;
+    */
+     return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoCell" rowHeight="259" id="KGk-i7-Jjw" customClass="VideoCell">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="259"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="gct" translatesAutoresizingMaskIntoConstraints="NO" id="68A-0W-87O">
+                        <rect key="frame" x="0.0" y="0.0" width="354" height="226"/>
+                        <gestureRecognizers/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZd-9l-yNK">
+                        <rect key="frame" x="8" y="234" width="346" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="68A-0W-87O" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="6p2-Bi-Men"/>
+                    <constraint firstItem="nZd-9l-yNK" firstAttribute="top" secondItem="68A-0W-87O" secondAttribute="bottom" id="7vu-cd-Ffh"/>
+                    <constraint firstAttribute="centerX" secondItem="nZd-9l-yNK" secondAttribute="centerX" id="Mpu-cg-F7M"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="68A-0W-87O" secondAttribute="trailing" constant="10" id="QjS-zr-U54"/>
+                    <constraint firstItem="68A-0W-87O" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="eO4-kQ-6R8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="nZd-9l-yNK" id="iEk-5O-4wq"/>
+                <outlet property="videoImage" destination="68A-0W-87O" id="SOF-xG-IsQ"/>
+            </connections>
+            <point key="canvasLocation" x="253" y="200.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="gct" width="63" height="56"/>
+    </resources>
+</document>

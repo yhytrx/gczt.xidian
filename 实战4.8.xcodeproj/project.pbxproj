@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		086726301AE54F35004C01A3 /* VideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0867262F1AE54F35004C01A3 /* VideoTableViewController.m */; };
+		086726341AE5528A004C01A3 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 086726321AE5528A004C01A3 /* VideoCell.m */; };
+		086726351AE5528A004C01A3 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 086726331AE5528A004C01A3 /* VideoCell.xib */; };
+		0867263A1AE63F7B004C01A3 /* OtherTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 086726391AE63F7B004C01A3 /* OtherTableViewController.m */; };
+		0867263F1AE7842D004C01A3 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0867263D1AE7842D004C01A3 /* WebViewController.m */; };
+		086726401AE7842D004C01A3 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0867263E1AE7842D004C01A3 /* WebViewController.xib */; };
 		088450561AD91008006332BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 088450551AD91008006332BF /* main.m */; };
 		088450591AD91008006332BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 088450581AD91008006332BF /* AppDelegate.m */; };
 		0884505C1AD91008006332BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884505B1AD91008006332BF /* ViewController.m */; };
@@ -20,8 +26,6 @@
 		088450881AD91137006332BF /* Cell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 088450831AD91137006332BF /* Cell1.xib */; };
 		088450891AD91137006332BF /* Cell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 088450851AD91137006332BF /* Cell2.m */; };
 		0884508A1AD91137006332BF /* Cell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 088450861AD91137006332BF /* Cell2.xib */; };
-		088450901ADA5FDF006332BF /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884508E1ADA5FDF006332BF /* VideoViewController.m */; };
-		088450911ADA5FDF006332BF /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0884508F1ADA5FDF006332BF /* VideoViewController.xib */; };
 		088450951ADB5314006332BF /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088450941ADB5314006332BF /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0867262E1AE54F35004C01A3 /* VideoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewController.h; sourceTree = "<group>"; };
+		0867262F1AE54F35004C01A3 /* VideoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewController.m; sourceTree = "<group>"; };
+		086726311AE5528A004C01A3 /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		086726321AE5528A004C01A3 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		086726331AE5528A004C01A3 /* VideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
+		086726381AE63F7B004C01A3 /* OtherTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherTableViewController.h; sourceTree = "<group>"; };
+		086726391AE63F7B004C01A3 /* OtherTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherTableViewController.m; sourceTree = "<group>"; };
+		0867263C1AE7842D004C01A3 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		0867263D1AE7842D004C01A3 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		0867263E1AE7842D004C01A3 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		088450501AD91008006332BF /* 实战4.8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "实战4.8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		088450541AD91008006332BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		088450551AD91008006332BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,9 +73,6 @@
 		088450841AD91137006332BF /* Cell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell2.h; sourceTree = "<group>"; };
 		088450851AD91137006332BF /* Cell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell2.m; sourceTree = "<group>"; };
 		088450861AD91137006332BF /* Cell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell2.xib; sourceTree = "<group>"; };
-		0884508D1ADA5FDF006332BF /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
-		0884508E1ADA5FDF006332BF /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
-		0884508F1ADA5FDF006332BF /* VideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
 		088450931ADB5314006332BF /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		088450941ADB5314006332BF /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +95,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		086726361AE55293004C01A3 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				086726311AE5528A004C01A3 /* VideoCell.h */,
+				086726321AE5528A004C01A3 /* VideoCell.m */,
+				086726331AE5528A004C01A3 /* VideoCell.xib */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		086726371AE554A8004C01A3 /* 主界面 */ = {
+			isa = PBXGroup;
+			children = (
+				0867262E1AE54F35004C01A3 /* VideoTableViewController.h */,
+				0867262F1AE54F35004C01A3 /* VideoTableViewController.m */,
+				086726361AE55293004C01A3 /* cell */,
+			);
+			name = "主界面";
+			sourceTree = "<group>";
+		};
+		0867263B1AE63F7F004C01A3 /* 界面3：word，ppt */ = {
+			isa = PBXGroup;
+			children = (
+				086726381AE63F7B004C01A3 /* OtherTableViewController.h */,
+				086726391AE63F7B004C01A3 /* OtherTableViewController.m */,
+				086726411AE78431004C01A3 /* 具体内容 */,
+			);
+			name = "界面3：word，ppt";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		086726411AE78431004C01A3 /* 具体内容 */ = {
+			isa = PBXGroup;
+			children = (
+				0867263E1AE7842D004C01A3 /* WebViewController.xib */,
+				0867263D1AE7842D004C01A3 /* WebViewController.m */,
+				0867263C1AE7842D004C01A3 /* WebViewController.h */,
+			);
+			name = "具体内容";
+			sourceTree = "<group>";
+		};
 		088450471AD91008006332BF = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +160,7 @@
 				088450601AD91008006332BF /* Images.xcassets */,
 				088450571AD91008006332BF /* AppDelegate.h */,
 				088450581AD91008006332BF /* AppDelegate.m */,
+				0867263B1AE63F7F004C01A3 /* 界面3：word，ppt */,
 				088450961ADB531A006332BF /* 界面3：图片 */,
 				088450921ADA5FE7006332BF /* 界面3：视频 */,
 				088450801AD91099006332BF /* 界面2：章节列表 */,
@@ -182,9 +235,7 @@
 		088450921ADA5FE7006332BF /* 界面3：视频 */ = {
 			isa = PBXGroup;
 			children = (
-				0884508D1ADA5FDF006332BF /* VideoViewController.h */,
-				0884508E1ADA5FDF006332BF /* VideoViewController.m */,
-				0884508F1ADA5FDF006332BF /* VideoViewController.xib */,
+				086726371AE554A8004C01A3 /* 主界面 */,
 			);
 			name = "界面3：视频";
 			sourceTree = "<group>";
@@ -278,10 +329,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086726401AE7842D004C01A3 /* WebViewController.xib in Resources */,
 				0884505F1AD91008006332BF /* Main.storyboard in Resources */,
 				088450641AD91008006332BF /* LaunchScreen.xib in Resources */,
-				088450911ADA5FDF006332BF /* VideoViewController.xib in Resources */,
 				088450611AD91008006332BF /* Images.xcassets in Resources */,
+				086726351AE5528A004C01A3 /* VideoCell.xib in Resources */,
 				0884508A1AD91137006332BF /* Cell2.xib in Resources */,
 				088450881AD91137006332BF /* Cell1.xib in Resources */,
 			);
@@ -302,13 +354,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0884505C1AD91008006332BF /* ViewController.m in Sources */,
+				086726341AE5528A004C01A3 /* VideoCell.m in Sources */,
+				0867263A1AE63F7B004C01A3 /* OtherTableViewController.m in Sources */,
 				088450591AD91008006332BF /* AppDelegate.m in Sources */,
 				088450561AD91008006332BF /* main.m in Sources */,
+				086726301AE54F35004C01A3 /* VideoTableViewController.m in Sources */,
+				0867263F1AE7842D004C01A3 /* WebViewController.m in Sources */,
 				088450871AD91137006332BF /* Cell1.m in Sources */,
 				0884507B1AD91065006332BF /* ListOfCourseTableViewController.m in Sources */,
 				0884507F1AD91091006332BF /* ChapterOfCourseTableViewController.m in Sources */,
 				088450951ADB5314006332BF /* ImageViewController.m in Sources */,
-				088450901ADA5FDF006332BF /* VideoViewController.m in Sources */,
 				088450891AD91137006332BF /* Cell2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +444,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -424,6 +480,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
