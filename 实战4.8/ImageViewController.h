@@ -10,5 +10,5 @@
 
 @interface ImageViewController : UIViewController
 @property (nonatomic,strong) UIScrollView *scrollView;
-@property (nonatomic,strong) UIImageView *imageView;
+@property (nonatomic,strong) UIImageView  *imageView;
 @end

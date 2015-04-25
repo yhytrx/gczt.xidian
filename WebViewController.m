@@ -18,11 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *dir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
-    NSString *path = [dir stringByAppendingPathComponent:self.otherSourcePath];
+    NSString *dir         = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+    NSString *path        = [dir stringByAppendingPathComponent:self.otherSourcePath];
     //创建网络请求(这里是本地的文件)
-    NSURL *url=[NSURL fileURLWithPath:path];
-    NSURLRequest *request=[NSURLRequest requestWithURL:url];
+    NSURL *url            = [NSURL fileURLWithPath:path];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
     //加载网络请求（加载本地文件）
     [self.webView loadRequest:request];
     
